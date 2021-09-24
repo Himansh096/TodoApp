@@ -1,0 +1,61 @@
+
+/* activate toggle */
+.accordion_item{
+    list-style: none;
+}
+.button{
+    width: 100%;
+    padding: 18px 8px;
+    display: flex;
+    justify-content: space-between;
+    background-color:  #40005d;;
+    font-size: 16x;
+    color: white;
+    border: none;
+    cursor: pointer;  
+    align-items: center;
+    font-weight: 700;
+    /* text-align: left;
+    flex-wrap: wrap; */
+
+    
+}  
+.accordion_item {
+    border-top: 1px solid #9f9f9f;
+}
+.control {
+    font-size: 20px;
+}
+  .accordion_item.active .button {
+    background-color: #105057;
+  }
+  .answer_wrapper {
+    height: 0;
+    overflow: hidden;
+    transition: height ease 0.2s;
+  }
+  .answer_wrapper.open {
+    height: auto;
+  }
+
+  .answer_wrapper.open {
+    /* ... */
+    transition: height ease 1s;
+  }
+  
+  .answer {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+/* 
+  
+    text-align: left;
+    font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8px;
+    cursor: pointer;
+    border: none; */
